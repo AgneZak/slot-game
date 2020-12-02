@@ -1,1 +1,46 @@
-{"users":[{"username":"test1","password":"test","gems":204900},{"username":"testin1","password":"test","gems":400}],"items":[],"history":[{"user":"testin1","date":"2020-12-02","action":"add","sum":500},{"user":"testin1","date":"2020-12-02","action":"play","sum":100},{"user":"test1","date":"2020-12-02","action":"add","sum":500},{"user":"test1","date":"2020-12-02","action":"play","sum":100},{"user":"test1","date":"2020-12-02","action":"won","sum":500}]}
+{
+  "users": [
+    {
+      "username": "test1",
+      "password": "test",
+      "gems": 204900
+    },
+    {
+      "username": "testin1",
+      "password": "test",
+      "gems": 400
+    }
+  ],
+  "history": [
+    {
+      "user": "testin1",
+      "date": "2020-12-02",
+      "action": "add",
+      "sum": 500
+    },
+    {
+      "user": "testin1",
+      "date": "2020-12-02",
+      "action": "play",
+      "sum": 100
+    },
+    {
+      "user": "test1",
+      "date": "2020-12-02",
+      "action": "add",
+      "sum": 500
+    },
+    {
+      "user": "test1",
+      "date": "2020-12-02",
+      "action": "play",
+      "sum": 100
+    },
+    {
+      "user": "test1",
+      "date": "2020-12-02",
+      "action": "won",
+      "sum": 500
+    }
+  ]
+}

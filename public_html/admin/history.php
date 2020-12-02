@@ -11,10 +11,11 @@ if (!App::$session->getUser()) {
 
 $nav = nav();
 $rows = App::$db->getRowsWhere('history', ['user' => $_SESSION['username']]);
-
+foreach ($rows as &$row) {
+    unset($row['user']);
+}
 $table = [
     'headers' => [
-        'User',
         'Date',
         'Action',
         'Gems amount'
